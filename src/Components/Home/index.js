@@ -24,6 +24,7 @@ class Home extends Component {
 
     const loginStage = { isLoggedIn: false };
     localStorage.setItem("loginState", JSON.stringify(loginStage));
+    localStorage.removeItem("JsonData");
 
     history.replace("/login");
   };
