@@ -1,5 +1,7 @@
 .App {
   text-align: center;
   background: #ffffff;
+  background-image: url("https://th.bing.com/th/id/R.6b84a113dea587b602d9eddbca79c760?rik=EMsb1nPNoGaUHg&riu=http%3a%2f%2fwww.designbolts.com%2fwp-content%2fuploads%2f2012%2f12%2fSkeletal-Weave-White-Tileable-pattern-for-website-background.jpg&ehk=dIUF3qhkEI1CkzV1xuH7egDW4S3HmF46ARSMDMMDGSg%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
   min-height: 100vh;
 }

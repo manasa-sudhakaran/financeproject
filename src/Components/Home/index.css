@@ -126,3 +126,21 @@
     visibility: hidden;
   }
 }
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+}
+.nav-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+.btn {
+  margin: 20px;
+}
+.data {
+  text-decoration: none;
+  color: black;
+}

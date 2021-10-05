@@ -67,14 +67,15 @@ class Home extends Component {
               Home
             </Link>
 
-            {jsonData && (
-              <Link to={"/data"} className="nav-item nav-link data">
-                Data
-              </Link>
-            )}
-
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav ms-auto ">
+                <li>
+                  {jsonData && (
+                    <Link to={"/data"} className="nav-item nav-link data">
+                      Data
+                    </Link>
+                  )}{" "}
+                </li>
                 <li
                   className="nav-item nav-link logout"
                   onClick={this.onClickLogout}

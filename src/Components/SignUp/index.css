@@ -12,3 +12,15 @@ label {
   line-height: 16px;
   color: #ff0b37;
 }
+
+.auth-wrapper {
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+.form-group {
+  padding: 5px;
+}
+.input-group {
+  padding: 10px;
+}

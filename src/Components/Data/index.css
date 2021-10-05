@@ -28,7 +28,7 @@
   font-weight: bold;
   padding-left: 30px;
   padding-right: 30px;
-  color: #21e6cb;
+  color: #093de7;
   align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -63,7 +63,8 @@
 }
 
 .sub-header {
-  color: #12d7e6;
+  color: #1220e6;
   font-size: 15px;
   font-weight: 600;
+  padding: 5px;
 }

@@ -73,8 +73,6 @@ class Login extends Component {
         <div className="auth-wrapper">
           <div className="auth-inner">
             <form onSubmit={this.onClickLogin} autoComplete="off">
-              <h3>Login</h3>
-
               <div className="form-group mb-3">
                 <label>Email</label>
                 <div className="input-group mb-2 mr-sm-2">
@@ -108,14 +106,22 @@ class Login extends Component {
                 </div>
               </div>
 
+              <Link to={"/forgetpassword"}>Forgot password?</Link>
+              <br />
+              {showSubmitError && <p className="error-message">*{errorMsg}</p>}
+              <br />
+
               <button type="submit" className="btn btn-primary  w-100">
                 Login
               </button>
-              <Link to={"/forgetpassword"}>Forget password</Link>
-              <br />
-              {showSubmitError && <p className="error-message">*{errorMsg}</p>}
             </form>
           </div>
+          <p>
+            Don't have an account?{" "}
+            <Link className="nav-link" to={"/signup"}>
+              Sign up
+            </Link>
+          </p>
         </div>
       </>
     );
