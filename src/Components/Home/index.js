@@ -93,7 +93,7 @@ class Home extends Component {
               <div className="file-upload">
                 <div className="file-select">
                   <div className="file-select-button" id="fileName">
-                    Choose File
+                    Upload File
                   </div>
                   <div className="file-select-name" id="noFile">
                     No file chosen...
@@ -109,9 +109,7 @@ class Home extends Component {
                   />
                 </div>
               </div>
-              <button type="submit" className="btn btn-primary mt-4 mb-1 w-100">
-                Submit
-              </button>
+
               {jsonData && (
                 <p className="data-msg">
                   The data has been loaded successfully
